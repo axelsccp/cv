@@ -2,6 +2,7 @@
 
 \usepackage{titlesec}
 \usepackage{titling}
+\usepackage{hyperref}
 \usepackage[margin=1.25in]{geometry}
 
 \titleformat{\section}[frame]
@@ -49,14 +50,14 @@ Campinas, SP - Brazil
 
 \section{Summary}
 
-Computer Engineer and DevOps enthusiast, have been working as an Environment Supporter with more then 6 years of experience. During this role, worked at different areas of expertise, like database administration, automation, administration of JVMs applications and Linux Administration. Actually, working as a SysAdmin going through a DevOps transformation.
+Computer Engineer and DevOps enthusiast, have been working with complex systems for nearly 10 years. During this decade, helped at different areas of expertise, like database administration, automation, lifecycle of applications, Linux Administration, IaaC, Kubernetes, CI/CD, cloud administration, etc. Actually, I have a SRE role \href{https://github.com/ZupIT}{@ZupIT} in a SRE team that keeps the platform (from the begginning with the definition of architecture to new features, to workloads and databases running in high availability production environment) for about ten development teams deliver their software to an huge brazilian bank.
 
 
 \section{Working Experience}
 
-\subsection{$\bullet$ CPQD (2012 - )}
+\subsection{$\bullet$ CPQD (2012 - 2019)}
 
-\subsubsection{$\bullet$ Intern}
+\subsubsection{- Intern}
 
 \subsubsection{- Support Technician}
 
@@ -72,8 +73,26 @@ Computer Engineer and DevOps enthusiast, have been working as an Environment Sup
 - Creation of scripts for various activities using bash, shell, awk, python, ansible, etc.. \newline
 - Configuration of WebServers(Apache,NGINX) \newline
 - Database administration experience (Oracle/PostgreSQL) \newline
-- Provided scripts to the migration of a Oracle DB to PostgreSQL DB \newline
 - Support to a map orientated application created by CPQD, known as Gerencia da Planta
+
+\subsection{$\bullet$ ZUP (2019 - )}
+
+\subsubsection{$\bullet$ SRE}
+
+\subsubsection{Contibutions \\}
+
+- Guiding the creation of the terraform standard used today at the projects I collaborate and enpowered the developers to run their own IaaC through atlantis \newline
+- Critical role at Microsoft Azure to AWS migration \newline
+- Experience with Jenkins, creating and mantaining the shared libs and working with the development teams to build a even more robust gitops experience using AWS CodeBuild \newline
+- Have been working to deliver a new observability experience for the teams: \newline
+    - Changing from cloudwatch to use the grafana stack
+    - With this changes, logs, traces and metrics are available at one view
+    - Build totally with opensource software (fluent-bit, loki, prometheus, cortex and grafana)
+- Helping teams to deliver more stable software with strong JVM tunning knowladge \newline
+- Critical collaboration to the migration of workloads from Docker Swarm to Kubernetes \newline
+- Continually working for a better release of the code in production, with less impact to the final client \newline
+- Working designing our deliver pattern to Kubernetes using helm  \newline
+- Automate everything mindset, using several languages/tools \newline
 
 \section{Technical Skills}
 
@@ -81,11 +100,11 @@ Computer Engineer and DevOps enthusiast, have been working as an Environment Sup
 
 \subsubsection{Programming}
 
-Shell script, Python, Ansible, AWK, Groovy, SQL
+Shell script, Python, Golang, AWK, Groovy, SQL
 
 \subsubsection{Databases}
 
-Oracle, PostgreSQL
+Oracle, PostgreSQL, MongoDB, Redis, Couchbase, Elasticsearch
 
 \subsubsection{System Administration}
 
@@ -93,19 +112,35 @@ Linux
 
 \subsubsection{Cloud Computing}
 
-AWS
+Microsoft Azure, AWS
 
 \subsubsection{Automation}
 
-Jenkins, Rundeck
+Jenkins, Rundeck, Helm
 
-\subsubsection{Containers}
+\subsubsection{Deliver}
 
-Docker, Docker-EE
+Jenkins, AWS CodeBuild
 
-\subsubsection{Monitoring}
+\subsubsection{Automation}
 
-Grafana, Zabbix, Netdata
+Rundeck, Helm
+
+\subsubsection{Configuration}
+
+Ansible
+
+\subsubsection{IaaC}
+
+Terraform
+
+\subsubsection{Container Orchestrators}
+
+Docker Swarm, Kubernetes
+
+\subsubsection{Observability}
+
+Grafana Stack, Zabbix, Netdata, Prometheus Stack, Cloudwatch, Graylog, Splunk
 
 \subsubsection{WebServers}
 
@@ -117,12 +152,15 @@ WildFly, Weblogic, JBoss
 
 \subsubsection{General Skills}
 
-Git
+Git, Vim
 
 \section{Education}
 
 Metrocamp IBMEC, Campinas, São Paulo \\
-- Degree in computer engineering
+- Degree in computer engineering \newline
+\newline
+FIAP, São Paulo, São Paulo \\
+- MBA in DevOps Engineering and Integration Architectures
 
 \section{Idioms}
 
